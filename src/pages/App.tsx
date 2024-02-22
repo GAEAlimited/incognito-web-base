@@ -121,6 +121,7 @@ const App = () => {
         <Route exact path={RoutePaths.SWAP} component={Market} />
         <Route exact path={RoutePaths.PAPPS_ID} component={SwapExchange} />
         <Route exact path={RoutePaths.PAPPS} component={PeggingApp} />
+
         <Route exact path={RoutePaths.INSCRIPTIONS} component={Inscriptions} />
         <Route exact path={RoutePaths.INSCRIPTION_DETAIL} component={InscriptionDetail} />
         <Route
@@ -128,6 +129,7 @@ const App = () => {
           path={RoutePaths.CREATE_INSCRIPTION}
           component={withUnlockWallet(CreateInscription, RoutePaths.INSCRIPTIONS)}
         />
+
         {/* <Route exact path={RoutePaths.MY_INSCRIPTIONS} component={withUnlockWallet(MyInscriptions)} /> */}
         <Route exact path={RoutePaths.EARNINGS} component={Earnings} />
         <Route exact path={RoutePaths.PRIVACY_POLICY} component={Policy} />
