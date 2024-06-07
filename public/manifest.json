@@ -1,5 +1,5 @@
 {
-  "background_color": "#fff",
+  "background_color": "#3d3d3d",
   "display": "standalone",
   "homepage_url": "https://incognito.org",
   "providedBy": { "name": "Incognito", "url": "https://incognito.org" },
@@ -23,5 +23,6 @@
   "iconPath": "./images/256x256.svg",
   "short_name": "Incognito",
   "start_url": ".",
-  "theme_color": "#000000"
+  "theme_color": "#c9b876" // Use this line if gscx-patch is preferred
+  // "theme_color": "#000000" // Use this line if build/production is preferred
 }
